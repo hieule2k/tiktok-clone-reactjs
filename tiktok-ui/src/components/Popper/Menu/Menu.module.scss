@@ -12,6 +12,10 @@
     background-color: #fff;
 }
 
+.menu-body {
+    overflow-y: auto;
+}
+
 .menu-item {
     width: 100%;
     justify-content: flex-start;
@@ -31,6 +35,8 @@
 .header {
     position: relative;
     height: 50px;
+    margin-top: -8px;
+    flex-shrink: 0;
 }
 
 .back-btn {
